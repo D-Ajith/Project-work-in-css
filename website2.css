@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.navleft img{
+    height: 3.5rem;
+}
+.navleft{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+}
+.navcenter{
+    display: flex;
+    gap:30px;
+}
+.navcenter a{
+    text-decoration: none;
+    color: black;
+    font-size:20px;
+}
+a:hover{
+    text-decoration: underline;
+    color:orangered;
+}
+.navright img{
+     height:2rem;
+     width: 2rem;
+}
+.recipe{
+    height:100vh;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.recipe1, .recipe2, .recipe3{
+    margin:20px;
+    width:350px;
+    height: 550px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.recipe1 a,.recipe2 a, .recipe3 a{
+    text-decoration: none;
+    color: burlywood;
+}
+.recipe1 a:hover,.recipe2 a:hover, .recipe3 a:hover{
+    text-decoration: underline;
+}
+.recipe1 h1:hover,.recipe2 h1:hover, .recipe3 h1:hover{
+    text-decoration: underline;
+}
+.recipe1 img,.recipe2 img, .recipe3 img{
+     height:300px;
+     width:100%;
+}
+.recipe1img:hover, .recipe2img:hover , .recipe3img:hover{
+    opacity:0.8;
+    background-color: #666;
+}
+.welcome{
+   width: 100%; 
+   display: flex;
+   justify-content:flex-end;
+   padding: 20px;
+}
+.welcomeleft{
+    width:40%;
+}
+.welcomeleft > img{
+    height: 400px;
+
+}
+.welcomeright{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.welcomeright>h2{
+    width:100%;
+    font-size: 1.8rem;
+    background-color: blanchedalmond;
+    padding:10px 0px;
+    text-align: center;
+}
+.About{
+    background-color: rgb(186, 181, 181);
+    width:60%;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+.categhead{
+    text-align: center;
+    font-size: 30px;
+    background-color:burlywood;
+    width: 100%;   
+    padding: 20px;
+}
+.categories{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap:20px; 
+}
+.categitem1 img{
+    width: 20rem;
+    height:30rem;
+}
+.categitem1>p{
+    position:absolute;
+    top:225%;
+    
+    transform: translate(50%,-50%);
+    background-color: black;
+    color: white;
+    width:10%;
+    height:5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.headingpopular{
+    text-align: center;
+    font-size: 30px;
+    background-color:burlywood;
+    width: 100%;   
+    padding: 20px;
+}
+.popularcard{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap:20px;
+        padding: 20px;
+}
+.popularcard1{
+    height:550px;
+    width:400px;
+    border:2px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding:10px;
+}
+.popularcard1 > h2{
+    font-size: 1.7rem;
+}
+.popularcard1 > h2:hover{
+    text-decoration: underline;
+}
+.popularcard1 > a{
+    text-decoration: none;
+    color: burlywood;
+}
+.popularcard1 > a:hover{
+    text-decoration: underline;
+}
+.popularcard1 > img{
+    width: 100%;
+    height:60%;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding:100px;
+}
+.footerright > a{
+    text-decoration: none;
+    font-size:1.2rem;
+    padding:10px;
+    color:rgb(109, 126, 109);
+}
+.footerright > a:hover{
+    text-decoration: underline;
+}
+.footerright > p{
+    font-size:10px;
+    padding-top:40px;
+}
+.footerright{
+    padding-bottom:30px;
+}
+.footerleft{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
